@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blue;
+    padding: 20px;
+}
+
+.logo {
+    width: 250px; /* Make the logo responsive */
+}
+
+.topnav {
+    display: flex;
+    gap: 10px;
+}
+
+.menu-container {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 30px;
+    color: white;
+    font-style: italic;
+}
+
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 768px) {
+    .navbar-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-container {
+        flex-direction: column;
+        gap: 10px;
+        font-size: 20px;
+        text-align: center;
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+        font-size: 20px;
+        cursor: pointer;
+        color: white;
+    }
+
+    .cart, .user {
+        margin-top: 10px;
+    }
+}
+.banner{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    row-gap: 2;
+}
+.ipad9{
+    display: flex;
+    row-gap: 2;
+}
+.description{
+    text-align: end;
+    justify-items: center;
+    padding: 0px 0px;
+    position: relative;
+    font-size: 50px;
+    bottom: auto;
+}
+.airclass{
+    background-color: rgb(214, 214, 236);
+}
+.box{
+    display: flex;
+    text-align: justify;
+}
+.phones{
+    background-color: silver;
+    height: 100px;
+    width: 100px;
+}
+.ph{
+    height: 100px;
+    width: 100px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+.appbtn{
+    padding: 10px 20px;
+}
+.boxblue{
+    width: auto;
+    height: 500px;
+    background-color: rgb(58, 58, 242);
+    display: flex;
+}
+.image19{
+    width: auto;
+    height: 500px;
+}
+.last{
+    background-color: black;
+    width: auto;
+    height: 600px;
+    display: flex;
+}
+.pc{
+    color: white;
+    font-size: larger;
+}
+.social{
+    width: 25%;
+    height: 600px;
+    display: flex;
+}
